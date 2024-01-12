@@ -99,9 +99,9 @@ To run Stick Hero, you will need to have Java and JavaFX installed on your syste
 3. Configure your IDE to include the JavaFX library and add VM options to include the JavaFX modules.
 
 ## Assumptions
-- When the Player is in moving state, user is advised **`to not click`** at that time, as it can cause buggy behaviours. Although this bug comes Sometime only.
+- When the Player is in moving state, user is advised **`not to click`** at the time as it may cause buggy behaviour sometimes. Although this bug comes rarely.
 - Consider a Scenario where a player is dying but can touch/is touching a diamond then it can collect that.
-- The hitbox ( the space to be considered part of itself ) of the diamond is intentionally left big for the ease of the player to play it.
+- The hitbox ( the space around an objest, that's considered a part of it ) of the diamond is intentionally left big for the ease of the player to play it.
 - The paths of all the images are absolute, so to run it, the paths have to refactor.  
 
 ## Running the Application
